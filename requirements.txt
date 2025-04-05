@@ -1,0 +1,32 @@
+# Web App
+streamlit
+
+# LangChain & Google Gemini
+langchain
+google-generativeai
+
+# PDF Reading
+PyPDF2
+
+# Vector Store
+faiss-cpu
+
+# Environment Variable Handling
+python-dotenv
+
+# MongoDB Integration
+pymongo
+dnspython
+
+# Password Hashing & Authentication
+bcrypt
+
+# Data Processing
+pandas
+numpy
+
+# For Markdown display
+markdown
+
+# Optional (may already be included by dependencies)
+requests
