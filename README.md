@@ -37,6 +37,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 pip install -r requirements.txt
 
+```
 
 ChatWithAuthor/
 ├── chat_with_author_bot.py     # Main Streamlit app
@@ -45,7 +46,7 @@ ChatWithAuthor/
 ├── .gitignore                  # Ignore config
 └── README.md                   # Project documentation
 
-```
+
 ## Add a .env file and give all the required feilds.
 
 MONGO_USERNAME=your_username
