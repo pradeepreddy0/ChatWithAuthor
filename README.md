@@ -34,10 +34,15 @@ Create and activate a virtual environment first:
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+Install all the requirements for the virtual environment:
 
+```bash
 pip install -r requirements.txt
 
 ```
+Directory structure for the project
+```bash
 
 ChatWithAuthor/
 ├── chat_with_author_bot.py     # Main Streamlit app
@@ -46,8 +51,9 @@ ChatWithAuthor/
 ├── .gitignore                  # Ignore config
 └── README.md                   # Project documentation
 
-
-## Add a .env file and give all the required feilds.
+```
+create a .env file and give all the required feilds mentioned bekow.
+```bash
 
 MONGO_USERNAME=your_username
 MONGO_PASSWORD=your_password
@@ -55,4 +61,9 @@ MONGO_CLUSTER=your_cluster
 MONGO_DB_NAME=your_database_name
 GOOGLE_API_KEY=your_gemini_api_key
 
+```
+
+To run the project use the below command
+```bash
+streamlit run bot.py
 ```
